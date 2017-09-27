@@ -1,0 +1,51 @@
+/*margin: top right bottom left*/
+/*margin: 20px 250px 20px 250px;*/
+
+body {
+	border: 20px solid #bdc3c7;
+	margin: 20px auto;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	font-family: Source Sans Pro;
+
+}
+
+.quote {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+/*This is my body ID, whihc is used only once*/
+.post {
+	margin-bottom: 20px;
+}
+
+/*This is my date class, which can be reused wherever I need it*/
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+
+/*This is my content's header */
+h2 {
+	font-size: 2.0rem;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+/*The lead class will give me a block quote bar*/
+.quote {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+/*HR is a style element meant to seperate content*/
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
