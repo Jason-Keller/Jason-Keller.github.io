@@ -7,7 +7,6 @@ txtarea.addEventListener("keydown", function(){
     const inpValue = txtarea.value;
     if(keyPress === 13){
         console.log(inpValue.split(""));
-        this.value = "";
         for(var i = 0; i < inpValue.length; i++){
             if(inpValue[i] === "r"){
                 const regex = /r/gi;
