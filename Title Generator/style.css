@@ -1,0 +1,30 @@
+body {
+    background: rgb(4, 37, 59);
+    color: whitesmoke;
+    font-family: "Nunito", "Tahoma";
+}
+
+span {
+    font-size: 3rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.one {
+    justify-self: center;
+}
+
+.two {
+    padding-right: 200px;
+}
+
+button {
+    background: #f1eef0;
+    -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;;
+}
