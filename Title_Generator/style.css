@@ -1,0 +1,87 @@
+body {
+    margin: 0 auto;
+}
+
+span {
+    font-size: 2.0rem;
+    text-shadow : horizontal-shadow vertical-shadow blur 10px 5px 5px black; 
+}
+
+#createTitle {
+    background: #ffffff00;
+    color: #eeeeee;
+    -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
+    font-family: "Nunito", "Tahoma";
+    font-size: 2.0rem;
+    margin: 0;
+    white-space: nowrap;
+    padding: 0.5rem;
+}
+
+button:hover {
+    outline: 0;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 0 2px rgb(36, 138, 255);
+}
+
+h3 {
+    font-weight: 100;
+    padding-left: 35%;
+}
+
+.grid {
+    background: rgb(7, 58, 92);
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-auto-rows: minmax(27%, auto);
+    grid-gap: 4rem;
+    justify-items: center;
+    align-items: center;
+    padding: 15rem 15rem 15rem 15rem;
+    font-family: "Nunito", "Tahoma";
+    color: whitesmoke;
+}
+
+.one {
+    justify-self: center;
+    align-self: center;
+}
+
+.grid2 {
+    display: grid;
+    background: rgb(48, 48, 48);
+    grid-template-columns: repeat(1, 100%);
+
+}
+
+.headingOffSet {
+  justify-self: center;
+  align-self: center;
+  font-family: "Verdana";
+  color: rgb(255, 255, 255);
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+}
+
+#titleInflation {
+    font-size: 3rem;
+    font-weight: 200;
+    color: rgb(151, 149, 149);
+}
+
+.titleInflationDef {
+    font-weight: 100;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.blockContainer {
+    display: grid;
+    grid-template-columns: 28rem;
+    justify-items: center;
+    padding-left: 25%;
+}
+
+a {
+    color: rgb(123, 243, 207);
+}
